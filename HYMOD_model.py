@@ -15,7 +15,7 @@ Ks: Slow flow reservoir rate constant. (day^-1) [0.0 - 0.15]
 """
 
 import numpy as np
-import pandas as pd
+
 
 # Import
 from HYMOD_components import cascading_reservoirs, linear_reservoir
