@@ -62,7 +62,7 @@ def make_HYMOD_widget():
 
     # Create the rows of the widets
     title_row = Label('Select parameter values for the HYMOD model:')
-    slider_row = HBox([VBox([Label(i) for i in param_labs]), VBox([Cmax_slider, B_slider, Alpha_slider, Ks_slider, Kq_slider, N_slider])], layout = box_layout)
+    slider_row = HBox([VBox([Label(i) for i in param_labs]), VBox([Kq_slider, Ks_slider, Cmax_slider, B_slider, Alpha_slider, N_slider])], layout = box_layout)
     error_menu_row = HBox([Label('Choose error metric:'), drop_down], layout = box_layout)
     observed_toggle_row = HBox([Label('Click to show observed flow'), plot_button], layout = box_layout)
     plot_row = HBox([result_comparison_plot], layout = box_layout)
